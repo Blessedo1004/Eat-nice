@@ -1,0 +1,66 @@
+#row-3 {
+  background: url(Images/Ellipse\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#text-col-1 {
+  word-spacing: 0.4px;
+}
+#text-1 {
+  font-size: 20px;
+}
+#home-container-1 {
+  margin-top: 0;
+}
+#cart-row-2 {
+  background: url(Images/Group\ 20.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#aboutText {
+  word-spacing: 4px;
+  margin-top: 1em;
+}
+#sub-cf-2 {
+  margin-top: 85px;
+}
+#toggle-text {
+  color: #c8161d;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+#loginText-1 {
+  color: #c8161d;
+}
+#loginBtn {
+  background-color: #c8161d;
+}
+#register {
+  color: #c8161d;
+}
+#register-container {
+  margin-bottom: 100px;
+}
+#demo {
+  width: 35%;
+  height: 85.5%;
+}
+#login-c {
+  margin-bottom: 5%;
+}
+#about-c-2 {
+  background-image: url(Images/Rectangle\ 10.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#group-6-2 {
+  margin-bottom: 2.5em;
+}
+@media (min-width: 768px) {
+  #mainImage {
+    width: 70% !important;
+    margin-bottom: none;
+  }
+}

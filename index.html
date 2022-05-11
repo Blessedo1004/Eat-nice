@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eat Nice</title>
+    <link rel="icon" href="Images/icon.jpg"></link>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="style.css">
+     <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <div class="row">
+          <nav class="col-12 container-fluid mb-5 navbar navbar-light fixed-top  bg-light" id="sub-cf-1 ">
+              <div class="offcanvas offcanvas-start" id="demo">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" id="canvas-close" data-bs-dismiss="offcanvas" onclick="offcanvasnorms()"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p><a class="text-danger " href="login.html" id="toggle-text">Log-In</a></p>
+                   <p> <a class="text-danger" href="register.html"  id="toggle-text">Register</a></p>
+                </div>   
+                
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                <span class="navbar-toggler-icon" id="toggler" onclick="offcanvas()"></span>
+              </button>
+              <div class="col offset-md-3 offset-1">
+                <img src="Images/Group 1.png" class="mx-auto d-block">
+              </div>
+              <div class="col">
+                <img src="Images/Rectangle 1.png" class="float-right">
+              </div>
+        </nav>
+       </div>
+     </div>
+                 
+              
+             
+          <div class="container-fluid" id="sub-cf-2">
+              <div class="row">
+                  <div class="col"><h3 id="text-1">Hey!</h3>
+                    <div class="row">
+                        <div class="col"><h6 id="text-2" class="text-secondary">Lets take your order</h6></div>
+                    </div>
+                  </div>
+              </div>
+
+          </div>
+          <div class="container-fluid" id="sub-cf-3">
+              <div class="row">
+                  <div class="col"> <form>
+                    <div class="input-group">
+                      <input class="form-control" type="text" placeholder="Search our delicious meals" />
+                      <div class="input-group-append">
+                        <div class="input-group-text"></div>
+                      </div>
+                    </div>
+                  </form></div>
+              </div>
+          </div>
+          <div class="container" id="sub-cf-4">
+              <div class="row">
+                <div class="col-md-2"></div>
+                  <div class="col-3 mt-3 mr-1">
+                     <input type="image" onclick="burger()"  src="Images/Group 7 (1).png" class="mr-sm-2" id="BurgerImage">
+                    
+                  </div>
+                  <div class="col-2 mt-3 mr-5 ml-1">
+                      <input type="image"  onclick="pizza()" src="Images/Group 7 (3).png" id="PizzaImage">
+                  </div>
+                  <div class="col-2 mt-3">
+                    <input type="image"  onclick="cake()" src="Images/Group 7 (2).png" id="CakeImage">
+                </div>
+              </div>
+          </div>
+          <div class="container mb-5" id="home-container-1" >
+              <div class="row">
+                  <div class="col">
+                    <h3 class="ml-3">Popular</h3>
+                    <div class="row">
+                      <div class="col-12">
+                        <a href="order.html">
+                          <img src="Images/Group 6.png" id="mainImage" class="mx-auto d-block mb-5" width="100%">
+                        </a>
+                      </div>
+                  </div>
+                  </div>
+                 
+              </div>
+          </div>
+            
+        
+          <nav class="container mr-1 mr-md-5 navbar navbar-expand fixed-bottom bg-light justify-content-center ">
+            <ul class="navbar-nav">
+              <li class="nav-item col-3 ml-4">
+                <a href="index.html" class="nav-link">  
+                    <img src="Images/Vector (4).png" ></a>
+               <div class="row">
+                 <div class="col text-center mr-4">Home</div>
+               </div>
+              </li>
+              <li class="nav-item col-3">
+                <a href="#" class="nav-link">
+                  <img src="Images/Vector (5).png" >
+                </a>
+                <div class="row">
+                  <div class="col text-center mr-4">Favorite</div>
+                </div>
+               </li>
+               <li class="nav-item col-3">
+                 <a href="about.html" class="nav-link">
+                     <img src="Images/Vector (7).png" ></a>
+                <div class="row">
+                    <div class="col text-center mr-4">About</div>
+                </div>
+               </li>
+               <li class="nav-item col-3">
+                 <a href="login.html" class="nav-link">
+                    <img src="Images/Vector (6).png">
+                 </a>
+               
+                <div class="row">
+                  <div class="col text-center mr-4">More</div>
+                </div>
+               </li>
+            </ul>       
+        </nav>
+       </div>   
+      <script src="script.js"></script>
+  </body>
+</html>
